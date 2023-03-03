@@ -1,10 +1,11 @@
 const a = +prompt("Введіть число:");
 if (a == "") {
   alert("Error: Немає данних!");
-}
-const b = +prompt("Введіть друге число:");
-if (b == "") {
-  alert("Error: Немає данних!");
+} else {
+  const b = +prompt("Введіть друге число:");
+  if (b == "") {
+    alert("Error: Немає данних!");
+  }
 }
 
 if (b === 0) {
